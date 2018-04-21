@@ -9,7 +9,7 @@ const {
   getMaxPointersPerBuffer,
   getSliceLimit,
   prepareMultiLevelData
-} = require('./lib/data-helper.js')
+} = require('../lib/data-helper.js')
 
 class GrenacheBackend {
   constructor (conf = {}) {

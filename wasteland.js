@@ -1,7 +1,7 @@
 'use strict'
 
-const Wasteland = require('./')
-const GrenacheBackend = require('./Grenache.js')
+const Wasteland = require('./index')
+const GrenacheBackend = require('./backends/Grenache.js')
 const Link = require('grenache-nodejs-link')
 
 const link = new Link({

@@ -26,6 +26,7 @@ service.on('request', (rid, key, payload, handler) => {
   } else {
     wl.get(payload.data, {}, (err, data) => {
       if (err) handler.reply(null, {'error': err})
+      else if (typeof data === 'undefined') handler.reply(null, {'error': 'No data found for this hash'})
       else handler.reply(null, {'price': data.v, 'hash': payload.data})
     })
   }

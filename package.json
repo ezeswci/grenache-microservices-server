@@ -1,8 +1,7 @@
 {
-  "name": "wasteland",
+  "name": "grenache-microservices-server",
   "version": "1.0.0",
   "description": "Slice and store data",
-  "main": "index.js",
   "scripts": {
     "test": "npm run lint && npm run unit",
     "lint": "standard",
@@ -10,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitfinexcom/wasteland.git"
+    "url": "git+https://github.com/ezeswci/grenache-microservices-server.git"
   },
   "keywords": [
     "DHT",
     "grenache",
     "kademlia"
   ],
-  "author": "Robert Kowalski <rok@kowalski.gd>",
+  "author": "Ezequiel Wernicke <wernicke.ezequiel@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "grenache-grape": "git+https://github.com/bitfinexcom/grenache-grape.git",
